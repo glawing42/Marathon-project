@@ -2,16 +2,17 @@
 background-image: url(marat.jpg);
 background-size: cover;
 height: 100%;
-margin-top: 30px;
-
-  
+margin-top: 30px; 
 }
+
 #pretty{
 color:#efcb9f;
 }
 #h2{
   color: #2a884c;
 }
+
+
 #ramka{
   text-align: center;
   border-radius: 25px;
@@ -23,8 +24,20 @@ color:#efcb9f;
   transition: .03s;
   opacity: .04px;
 }
+#parag1{
+  color: #333;
+}
+
 .linia{
 	margin-top: 50px;
 	text-align: right;
   color: #333;
+}
+#pwd{
+  background: grey;
+  width: 40%;
+}
+#usr{
+  background: grey;
+ width: 40%;
 }

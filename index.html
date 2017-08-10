@@ -10,20 +10,29 @@
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+<!-- Latest compiled and minified JavaScript -->
+	<meta charset="UTF-8">
 
-	<meta chars<!-- Latest compiled and minified JavaScript -->
-et="UTF-8">
 	<title>firstProjct</title>
 </head>
 <body>
  <div class="container">
 <div class="jumbotron" id="pretty" >
   <h1>Marathon app</h1><span id="ramka">Whetehr will here</span>
-  <p>Track your upocoming event, with our app</p>
-  <p>Observe the current wether, with fallowing outfit)</p>
-  <a class="btn btn-primary btn-lg" id="knopka" href="#" role="button">START...</a>
+  <p id="parag1">Track your upocoming event, with our app</p>
+  <p id="parag2">Observe the current wether, with fallowing outfit)</p>
+  <!-- INPUT METHODSSS -->
+  <div class="form-group">
+  <label for="usr">Name:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+<div class="form-group">
+  <label for="pwd">Password:</label>
+  <input type="password" class="form-control" id="pwd">
+</div>
+  <!-- <a class="btn btn-primary btn-lg" id="knopka" href="#" role="button">START...</a>
   <div><div class="linia well well-sm">Unchangend Fix Position</div>
-  </div>
+  </div> -->
   <div>
   <span id="pogoda">
   	<h2 id="h2"><i class="fa fa-sun-o" aria-hidden="true"></i><i class="fa fa-bolt" aria-hidden="true"><p>_- </p>__</i>Check your weather, around you. </h2>
@@ -34,9 +43,9 @@ et="UTF-8">
 </body>
 <script>
   
-  (function ()  {
+  (function () {
     var url ="https://openweathermap.org/find?q=charlotte+nc";
-    var apiKey ="1d209ef86def855a1271ba0acf254d52";s
+    var apiKey ="1d209ef86def855a1271ba0acf254d52";
     var httpRequest;
     makeRequest();
 
