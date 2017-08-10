@@ -1,0 +1,30 @@
+.jumbotron {
+background-image: url(marat.jpg);
+background-size: cover;
+height: 100%;
+margin-top: 30px;
+
+  
+}
+#pretty{
+color:#efcb9f;
+}
+#h2{
+  color: #2a884c;
+}
+#ramka{
+  text-align: center;
+  border-radius: 25px;
+	position: relative;
+	width: 30%;
+	height: 100px;
+  background:#4e4e4e;
+	float: right;
+  transition: .03s;
+  opacity: .04px;
+}
+.linia{
+	margin-top: 50px;
+	text-align: right;
+  color: #333;
+}
